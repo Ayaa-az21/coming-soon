@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+body{
+      width:100%; 
+    margin: auto; 
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(images/bg-pattern-desktop.svg) ; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+}
+.logo{
+    margin-top: 50px; 
+    margin-left: 100px; 
+}
+.content{
+    
+    position: relative; 
+    margin-top: 40px;
+    margin-left: 100px; 
+}
+.content{
+   
+}
+h1{
+    font-size: 60px; 
+     text-transform: uppercase;
+    letter-spacing: 15px;
+}
+#a{
+    margin-top: 80px; 
+    font-weight: 100; 
+    color: hsl(0, 74%, 74%);
+   
+    margin-bottom: 20px; 
+    
+}
+#b{
+    font-weight: 600; 
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+    
+}
+
+#c{
+    font-weight: 600;
+    margin-top: 10px; 
+}
+
+
+.content p{
+    
+    max-width: 600px; 
+    letter-spacing: 1px; 
+    color: hsl(0, 36%, 70%); 
+    line-height: 25px;  
+    font-size: 16px; 
+}
+.email{
+    margin-top: 50px; 
+}
+.email input{
+    padding: 10px 100px 10px 10px; 
+    border-radius: 15px; 
+    border: solid 2px hsl(0, 36%, 70%); 
+    margin-right: 0px; 
+    
+}
+.email button{
+    position: absolute; 
+    transform: translateX(-25px) translateY(-2px); 
+    padding: 10px 30px; 
+    margin-left: 0px; 
+    border-radius: 15px; 
+    border :1px solid ; 
+    font-size: 20px;  
+    background-color:  hsl(0, 43%, 70%); 
+    color: #ffffff; 
+}
+.image {
+    position: absolute; 
+    top: 0; 
+    right: 50px; 
+ /* float: right; 
+    transform: translateY(-380px); 
+    margin-right: 50px; */
+}
+footer{
+position: fixed; 
+    bottom: 10px; 
+    margin-left: 100px; 
+    
+}
+
+/* for mobile */
+@media only screen and (max-width: 600px) {
+  body {
+   background-image: url(images/hero-mobile.jpg); 
+      
+  }
+}
